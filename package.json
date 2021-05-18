@@ -1,0 +1,32 @@
+{
+  "name": "hupun-open-api-nodejs-sdk",
+  "version": "1.0.0",
+  "description": "对接万里牛ERP开放接口的NodeJS SDK",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "repository": "https://github.com/kilik52/hupun-open-api-nodejs-sdk",
+  "scripts": {
+    "test": "npm run build;node test/*.js | tap-spec",
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "XiChi Zhu",
+  "license": "ISC",
+  "files": [
+    "lib",
+    "package.json"
+  ],
+  "devDependencies": {
+    "@types/crypto-js": "^4.0.1",
+    "rollup": "^2.48.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.2.2",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "crypto-js": "^4.0.0",
+    "query-string": "^7.0.0"
+  }
+}
