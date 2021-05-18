@@ -1,6 +1,6 @@
 {
   "name": "hupun-open-api-nodejs-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "对接万里牛ERP开放接口的NodeJS SDK",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
@@ -14,7 +14,8 @@
   "license": "ISC",
   "files": [
     "lib",
-    "package.json"
+    "package.json",
+    "README.md"
   ],
   "devDependencies": {
     "@types/crypto-js": "^4.0.1",
